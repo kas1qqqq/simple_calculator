@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(127, 165, 167);
+  padding-top: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 350px;
+  height: 492px;
+  background-color: rgb(58, 60, 61);
+  margin: 0 auto;
+  border-radius: 20px;
+  padding-top: 20px;
+  box-shadow: 0px -4px 6px rgb(0, 0, 0);
+}
+
+.container__result {
+  display: flex;
+  justify-content: center;
+
+}
+
+.container__result-output input {
+  color: black;
+  border: none;
+  text-align: right;
+  font-size: 40px;
+  padding: 20px 10px 0 0;
+  width: 320px;
+  height: 70px;
+  background-color: rgb(103, 131, 103);
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px rgb(0, 0, 0);
+}
+
+.container__button {
+  margin: 20px 15px 20px 15px;
+}
+
+.container__button-black {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__button-black button {
+  font-size: 34px;
+  width: 70px;
+  height: 60px;
+  background-color: rgb(32, 32, 32);
+  color: rgb(214, 214, 214);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 0px 4px rgb(32, 32, 32);
+}
+
+.container__button-black button:hover,
+.container__button-silver button:hover {
+  color: white;
+  box-shadow: 0px 0px 4px rgb(32, 32, 32);
+}
+
+.container__button-black button:hover {
+  background-color: rgb(43, 43, 43);
+}
+
+.container__button-silver button:hover {
+  background-color: rgb(107, 107, 107);
+}
+
+.container__button-silver {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button:nth-last-of-type(2) {
+  font-size: 50px;
+}
+
+button:nth-last-of-type(3) {
+  font-size: 42px;
+}
+
+.container__button-silver button {
+  font-size: 34px;
+  width: 70px;
+  height: 60px;
+  background-color: rgb(90, 90, 90);
+  color: rgb(214, 214, 214);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 0px 4px rgb(32, 32, 32);
+}
+
+button:nth-last-of-type(1) {
+  font-size: 44px;
+}
+
+.container__button-silver:nth-child(4) {
+  height: 120px;
+  flex-wrap: wrap;
+}
+
+.container__button-silver:nth-child(4) button:last-child {
+  background-color: rgb(201, 105, 70);
+  align-self: flex-end;
+  height: 134px;
+}
+
+.container__button-silver:nth-child(4) button:last-child:hover {
+  background-color: rgb(221, 105, 63);
+}
+
+.container__button-silver:nth-child(5) {
+  width: 250px;
+  margin-top: -46px;
+}
+
+.container__button-silver:nth-child(5) button:nth-of-type(1) {
+  flex-basis: 154px;
+}
+
+.container__button-silver:nth-child(5) button:nth-of-type(2) {
+  margin-right: 13px;
+}
